@@ -1,0 +1,43 @@
+* {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	width: 100%;
+}
+
+main div {
+	margin: 0 auto;
+}
+
+div:first-of-type {
+	background-color: pink;
+	height: 100px;
+	width: 80%;
+}
+
+div:nth-of-type(2) {
+	background-color: grey;
+	height: 200px;
+	width: 80%;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+}
+
+footer p {
+	margin: 0;
+}
